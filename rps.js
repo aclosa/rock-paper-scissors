@@ -29,6 +29,7 @@ function playRound(playerSelection, computerSelection){
 // const computerSelection = computerPlay();
 // console.log(playRound(playerSelection, computerSelection))
 
+// game function to play 5 times the game and count who win
 function game(){
 
     let win = 0, lost = 0, tied = 0;
