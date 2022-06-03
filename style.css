@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    background: #fafafb;
+    font-family: Roboto, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* main body part */
+
+.title{
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 36px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 72%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 20px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .btn{
+    font-size: 16px;
+    color: #141515;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container button{
+    background-color: rgba(121,9,9,1);
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 24px;
+}
+
+.container button:hover:enabled{
+    transform: scale(1.5) perspective(1px);
+}
+
+.container button:disabled{
+    background-color: rgba(121, 9, 9, 0.279);
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 24px;
+}
+
+.container img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgba(121,9,9,1);
+    border-radius: 20px;
+}
+
+/* results part */
+
+.card{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 52px;
+    background-color: #e5e5f7;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#d82400 0.9500000000000001px, #e5e5f7 0.9500000000000001px);
+    background-size: 19px 19px;
+}
+
+.box{
+    font-size: 20px;
+    background: rgba(121, 9, 9, 0.588);
+    border-radius: 6px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box button{
+    background-color: rgba(121,9,9,1);
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 24px;
+}
+
+.box button:hover:enabled{
+    transform: scale(1.5) perspective(1px);
+}
+
+/* footer  */
+
+.footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(121,9,9,1);
+    color: #ccd9cd;
+}
+
