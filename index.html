@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<script src="rps.js"></script>
+<div class="title"> <strong>Humanity <br>vs<br> Machine</strong></div>
+  <div class="container">
+    <div class="fig">
+        <img src="./images/rock.jpeg" alt="paper">
+      <div class="btn"><button class = "play" id="rock">Rock</button></div>
+    </div>
+    <div class="fig">
+      <img src="./images/paper.jpeg" alt="paper">
+      <div class="btn"><button class = "play" id="paper">Paper</button></div>
+    </div>
+    <div class="fig">
+        <img src="./images/scissor.jpeg" alt="scissors">
+        <div class="btn"><button class = "play" id="scissors">Scissors</button></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="box">
+      <div id="results">Choose wisely human destiny is in your hands</div>
+      <button type="submit" onClick="refreshPage()">Play Again!</button>
+    </div>
+  </div>
+  <div class="footer">
+    <strong>aclosa for The Odin Project</strong>
+  </div>
+<script src="game.js"></script>
 </body>
 </html>
